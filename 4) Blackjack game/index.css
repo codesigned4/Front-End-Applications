@@ -1,0 +1,29 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image:url("table.png");
+    background-size:cover;/*now no matter how you extend/wide the background the image still covers the full width*/
+    text-align: center; 
+    color: white; /*it converts black colors into white colors except h1 because of it has specific golden color*/   
+    font-weight: bold;
+}
+
+h1{
+    color:goldenrod
+}
+
+#message-el{
+    font-style:italic;
+}
+
+button{
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    padding-top: 5px;
+    padding-bottom:5px;
+    font-weight: bold;
+    border:none;
+    border-radius:2px;
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
