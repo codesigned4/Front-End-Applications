@@ -1,0 +1,52 @@
+body {
+    margin:0px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    max-width: 400;
+    background-color:#c9d3dd;
+}
+
+input{
+    width: 100%;
+    padding: 10px;    
+}
+
+button{
+    margin-top: 5px;
+    background-color:#52616B;
+    color:white;
+    font-weight: bold;
+    padding:5px 6px;
+    border-style: solid;
+    border-color: #52616B;
+    min-width: 100;
+    max-width: 100;  
+    font-size: 12;
+
+}
+/*Style the list according to the design*/
+
+ul{
+ margin-top: 15;
+ list-style: none;
+ padding-left: 0;
+}
+
+li{
+    margin-top: 5;
+}
+
+li a{ /*if the target anchor tag lives inside of a list item then apply code below*/
+    color: #52616B;
+}
+
+#delete-btn{
+    background-color: white;
+    color: #52616B;
+    border-style: solid;
+}
+
+#p-el{
+    color: #aaaeb1;
+}
